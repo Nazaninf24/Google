@@ -39,22 +39,23 @@ nav li button{
 }
 
 .header-container a{
-	margin: 10px;
+	margin: 5px;
 	text-decoration: none;
 	color: #424242;
 	margin-right: 30px;
 	margin-top: 20px;
 	
 }
+
 #sign{
 	padding: 10px;
 	background-color: rgb(25, 74, 236);
 	color: white;
 }
 
-.app {
+/* .app {
 	margin-top: 15px;
-}
+} */
 
 nav li img{
 	justify-content: center;
@@ -80,11 +81,18 @@ div.photo{
 	margin-bottom: 20px;
 }
 
-input{
+.search{
 	border:1px solid #e6e6e6;
 	width: 582px;
 	height: 52px;
-	border-radius: 40px;	
+	border-radius: 40px;
+	position: relative;	
+}
+
+.loupe{
+	position: absolute;
+	top: 400px;
+	left: 590px;
 }
 
 .rs{
